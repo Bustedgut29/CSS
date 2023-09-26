@@ -1,0 +1,9 @@
+#color
+    {
+        background-color: red; 
+        text-align: right;
+    }
+#border
+    {
+        border: 10px red solid;
+    }

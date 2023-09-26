@@ -1,0 +1,26 @@
+.heading
+{
+    background-color: maroon; 
+    border: 2px solid rgb(40, 151, 40);
+    text-align:left; 
+    color: white;
+    padding: 10;
+}
+.first
+{
+    background-color: orange;
+    font-size: 20;
+    border: 2px solid red;
+    color: white;
+    padding: 40;
+}
+.second
+{
+    background-color:rgb(255,235,65);
+    font-size: 20;
+    border-radius: 30px;
+    border: 2px dotted red;
+    text-align:left; 
+    color: red;
+    padding: 40;
+}
