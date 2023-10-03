@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            @keyframes hello
+            {
+                from
+                {
+                    background-color: red;
+                    border: 3px solid blue;
+                }
+                to
+                {
+                    background-color: blue;
+                    border: 3px solid red;
+                }
+            }
+            div
+            {
+                height: 100px;
+                width: 100px;
+                color: white;
+                border: 3px soild black;
+                background-color: red;
+                transition: height 2s ,width 2s;
+            }
+            div:hover
+            {
+                height: 300px;
+                width: 300px;
+                animation-name: hello;
+                animation-duration: 5s;
+                border: 5px soild red;
+                background-color: red;  
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            hello
+        </div>
+    </body>
+</html>
